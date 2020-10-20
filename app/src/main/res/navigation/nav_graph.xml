@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/MainMenuFragment">
+
+    <fragment
+        android:id="@+id/MainMenuFragment"
+        android:name="com.example.restaurantmenu.MainMenuFragment"
+        android:label="fragment_main_menu"
+        tools:layout="@layout/fragment_main_menu">
+        <action
+            android:id="@+id/action_mainMenuFragment_to_lunchMenuFragment"
+            app:destination="@id/LunchMenuFragment" />
+        <action
+            android:id="@+id/action_mainMenuFragment_to_starterMenuFragment"
+            app:destination="@id/StarterMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/LunchMenuFragment"
+        android:name="com.example.restaurantmenu.LunchMenuFragment"
+        android:label="fragment_lunch_menu"
+        tools:layout="@layout/fragment_lunch_menu">
+        <action
+            android:id="@+id/action_lunchMenuFragment_to_drinkMenuFragment"
+            app:destination="@id/DrinkMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/DinnerMenuFragment"
+        android:name="com.example.restaurantmenu.DinnerMenuFragment"
+        android:label="fragment_dinner_menu"
+        tools:layout="@layout/fragment_dinner_menu">
+        <action
+            android:id="@+id/action_dinnerMenuFragment_to_drinkMenuFragment"
+            app:destination="@id/DrinkMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/StarterMenuFragment"
+        android:name="com.example.restaurantmenu.StarterMenuFragment"
+        android:label="fragment_starter_menu"
+        tools:layout="@layout/fragment_starter_menu">
+        <action
+            android:id="@+id/action_starterMenuFragment_to_dinnerMenuFragment"
+            app:destination="@id/DinnerMenuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/DrinkMenuFragment"
+        android:name="com.example.restaurantmenu.DrinkMenuFragment"
+        android:label="fragment_drink_menu"
+        tools:layout="@layout/fragment_drink_menu">
+        <action
+            android:id="@+id/action_drinkMenuFragment_to_orderSummaryFragment"
+            app:destination="@id/OrderSummaryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/OrderSummaryFragment"
+        android:name="com.example.restaurantmenu.OrderSummaryFragment"
+        android:label="fragment_order_summary"
+        tools:layout="@layout/fragment_order_summary" >
+        <action
+            android:id="@+id/action_OrderSummaryFragment_to_MainMenuFragment"
+            app:destination="@id/MainMenuFragment" />
+    </fragment>
+</navigation>

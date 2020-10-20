@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">RestaurantMenu</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lunchText">Choose lunch:</string>
+    <string name="chooseDrinkTextView">Choose drink:</string>
+    <string name="viewOrderSummaryButtonText">Add to order and proceed to summary</string>
+    <string name="orderSummaryTextViewLabel">Order Summary</string>
+    <string name="homeButton">Home</string>
+    <string name="chooseStarterText">Choose starter:</string>
+    <string name="chooseMainCourse">Choose Main Course</string>
+    <string name="chooseMainCourseText">Choose main course:</string>
+    <string name="addToOrderText">Add to order and proceed</string>
+    <string name="lasagne_with_chips_7_20">Lasagne with chips – €7.20</string>
+    <string name="chicken_roll_with_chips_5_50">Chicken roll with chips – €5.50</string>
+    <string name="beef_burger_with_chips_7_50">Beef burger with chips – €7.50</string>
+</resources>

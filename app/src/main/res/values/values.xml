@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name = "lunch_menu">
+        <item>Select one item....</item>
+        <item>Lasagne with chips – €7.20</item>
+        <item>Chicken roll with chips – €5.50</item>
+        <item>Beef burger with chips – €7.50</item>
+    </string-array>
+
+    <string-array name = "starter_menu">
+        <item>Select one item....</item>
+        <item>Soup – €3.40</item>
+        <item>Salad – €4.00</item>
+    </string-array>
+
+    <string-array name = "dinner_menu">
+        <item>Select one item....</item>
+        <item>Pizza with chips – €9.80</item>
+        <item>Chicken curry with chips – €8.00</item>
+        <item>Fish and chips – €9.50</item>
+    </string-array>
+
+    <string-array name = "drink_menu">
+        <item>Select one item....</item>
+        <item>Guinness – €4.80</item>
+        <item>Whiskey – €4.20</item>
+        <item>Lucozade – €2.20</item>
+    </string-array>
+</resources>
